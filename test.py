@@ -1,10 +1,14 @@
 import numpy as np
-import matplotlib.pylab as plt
+# L = 2000
+# nxc = 400
+# nxv = nxc + 1
+# dx = L / nxc
+# xv = np.zeros(nxc)
+# for i in list(range(nxc - 1)):
+#     xv[i + 1] = xv[i] + dx
 
-dat = np.random.randn(10,10)
-plt.imshow(dat, interpolation='none')
+# print(list(range(5)))
+# print('\n',range(5))
 
-clb = plt.colorbar()
-clb.ax.set_title('This is a title')
-
-plt.show()
+a = np.array([1, 2, 3], [3, 4, 3])
+print(a)

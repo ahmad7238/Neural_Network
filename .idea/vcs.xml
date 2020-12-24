@@ -2,7 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/CFD(git)" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CFD" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/groundwater-irrigation" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/modeling_of_aquatic_systems" vcs="Git" />
   </component>
 </project>
