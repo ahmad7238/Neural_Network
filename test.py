@@ -10,5 +10,15 @@ import numpy as np
 # print(list(range(5)))
 # print('\n',range(5))
 
-a = np.array([1, 2, 3], [3, 4, 3])
-print(a)
+n=10
+# for i in range(n - 1, 0, -1):
+#     print(i)
+
+h_n1 = np.reshape([10 for i in np.zeros(n * n)], [n, n])
+z = np.ones(n)*20
+z[2]=21
+print(z[2:])
+print(h_n1[[3][:]])
+for j in range(1, n):
+    for i in range(1, n):
+        h_n1[i][j] = z[i]
